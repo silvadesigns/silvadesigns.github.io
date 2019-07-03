@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web page with desktop-only styles</title>
+
+    
+
+
+</head>Paula Silva / IBAT Web Design Portofolio</title>
+<body>h1 {
+    font-family: serif;
+    font-size:164px;
+    font-weight:bold;
+    line-height:1.3;
+    letter-spacing:-1px;
+    margin-top:20px;
+    margin-bottom:32px;
+}
+
+h2 {
+    font-family: serif;
+    font-size:38px;
+    font-weight:bold;
+    line-height:1.3;
+    margin-top:40px;
+    margin-bottom:12px;
+}
+
+h3 {
+    font-family: serif;
+    font-size:24px;
+    font-weight:bold;
+    line-height:1.3;
+    margin-top:32px;
+    margin-bottom:6px;
+}
+
+
+    <h1>My website</h1>
+
+
+
+        <h2>My designs</h2>
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet leo massa, vel sodales ex rhoncus at. Nunc ac varius purus, sit amet tristique lectus. Nunc vestibulum pulvinar ligula luctus ultricies. Vestibulum vulputate sagittis tellus, sit amet lacinia leo varius nec. Etiam commodo, orci ut pulvinar porttitor, ex lacus malesuada ex, eget ornare metus elit quis velit. Suspendisse finibus cursus venenatis. Vivamus ac justo in turpis aliquam viverra. Maecenas luctus enim sit amet enim dictum pretium. Nunc rhoncus non eros congue convallis. Donec congue dolor eget lectus bibendum semper.</p>
+
+    <p>Integer malesuada placerat erat vel lacinia. Cras tristique metus augue, ullamcorper tincidunt orci imperdiet sed. Sed sed elit a massa sodales varius. Nunc placerat nisi sit amet metus dignissim porta. Nam ac felis dui. Vivamus eget viverra mauris. Vivamus accumsan quis sem in dapibus.</p>
+
+    <h3>My designs</h3>
+
+    <p>Suspendisse viverra tristique metus, non pellentesque lorem condimentum nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et aliquet risus. Proin quam nibh, ultrices quis nibh a, tempus porttitor justo. Ut posuere justo nunc, eget iaculis est malesuada porttitor. Aenean sodales est ac nisl tempus pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pellentesque elit vel est facilisis, non malesuada mi pretium. Sed cursus sollicitudin dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse blandit nisl mauris, quis convallis justo consectetur non.</P>
+    
+        <h4>My designs</h4>
+
+    <p>Sed vel tincidunt turpis, in venenatis dolor. Cras euismod sollicitudin risus, non vestibulum tortor pharetra ut. Curabitur iaculis tellus turpis, in placerat nunc tincidunt sed. Donec nec quam leo. Quisque sagittis nisi nec risus egestas venenatis. Ut ultricies, lorem ultricies hendrerit volutpat, enim dolor laoreet ligula, quis euismod velit nisi in orci. Nulla turpis mauris, posuere sit amet sodales quis, condimentum porttitor massa. Vestibulum elementum eget justo vel feugiat.</p>
+
+    <h5>My designs</h5>
+
+   <p> Vivamus a mattis magna. Praesent euismod augue eu ante congue, sed tincidunt dui tempus. Nullam dignissim ultrices risus eget consequat. Fusce sapien tortor, cursus sit amet tellus id, vulputate dapibus lacus. Etiam neque diam, placerat ut odio id, consectetur luctus nulla. Nulla eros massa, tempor non dolor eu, mattis hendrerit ligula. Proin at elementum arcu. Aenean non vestibulum sem. Fusce cursus risus mauris, vel feugiat ipsum fringilla at. Cras sagittis, lectus et hendrerit lacinia, odio urna condimentum est, nec pulvinar diam urna quis nisl. Nullam id auctor felis, at aliquam nulla. Nunc faucibus condimentum quam, vitae mollis quam efficitur sit amet. Nullam molestie eleifend tellus, quis molestie lectus. </p>
+</body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
