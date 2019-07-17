@@ -1,10 +1,4 @@
-/* ==== BROWSER RESETS  ==== */
-* { padding: 0; margin: 0; border: 0; font-weight: normal; font-size: 16px }
-body, html { height: 100% } 
-body { max-width: 1600px; margin: 0 auto }
-img { display: block; width: 100%; height: auto }
-
-/* ==== BODY ==== */
+/*==== BODY ====*/
 body { background-color: #f1efe9 }
 
 /* ==== PAGE WIDTH  ==== */
@@ -34,54 +28,69 @@ h1 {
     letter-spacing: -1px;
 
 }
-    /* Mobiles */
-@media all and (max-width:767px) {
-    h1 { 
-        line-height: 1.1;
-        width: 90%;
-        margin: 10% 5%;
-        
-    }
+
+/* ==== DIV - INTRODUCTION ==== */
+.box-introduction { 
+    width: 90%;
+    text-align: center;
+    border-bottom-style: solid; 
+    border-bottom-color: #dcd8cf;
+    font-family: serif;
+    font-style: italic;
 }
-/* Desktop */
-@media all and (min-width:768px) {
-    h1 { 
-        line-height: 1.2;
-        width: 90%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%
+
+.box-introduction p { font-family: serif; font-style: italic; text-align: center }
+
+ /* Desktop */
+ @media all and (min-width:768px) { 
+    .box-introduction { 
+        margin: 2% auto 6% auto;
+        padding-bottom: 28px;
+        border-bottom-width: 12px
     }
-}
+
+    .box-introduction p { 
+        line-height: 1.4; 
+        font-size: 25px 
+    }
+ }
+ 
+/* ==== DIV - HIGHLIGHTED BLOCK ==== */
+.box-highlight { background-color: #d4c6e6  }
+.box-highlight h4 { margin-top: 0 }
+.box-highlight p:last-child { margin-bottom: 0 }
+.box-highlight ul { margin-bottom: 0 }
+.box-highlight ul li:last-child { margin-bottom: 0 }
+
+ /* Desktop */
+ @media all and (min-width:768px) { 
+     .box-highlight { margin-top: 4%; margin-bottom: 6% }
+     .box-highlight { padding: 12px 20px }
+ }
+
  /* Mobiles */
-@media all and (max-width:767px) {
-    h1 { 
-        line-height: 1.1;
-        width: 90%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
+ @media all and (max-width:767px) { 
+     .box-highlight { margin-top: 2%; margin-bottom: 10% }
+     .box-highlight { padding: 12px 14px }
+ }
+
+
+
+
+
+ /* Mobiles */
+ @media all and (max-width:767px) { 
+    .box-introduction { 
+        margin: 2% auto 10% auto;
+        padding-bottom: 10px;
+        border-bottom-width: 6px
+   }
+
+   .box-introduction p { 
+        line-height: 1.4; 
+        font-size: 28px 
+   }
 }
-
-/* Desktop */
-@media all and (min-width:768px) {
-    h1 { 
-        line-height: 1.2;
-        width: 90%;
-        margin: 5%;
-    
-    }
-}
-
-/* Desktop */
-...
-margin: 5%;
-
-/* Mobiles */
-...
-margin: 10% 5%;
 
  /* ==== SUB HEADINGS ==== */
  h2, 
@@ -100,6 +109,20 @@ margin: 10% 5%;
 
  h4 { 
    font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1600 - 320)));
+}
+
+ /* Desktop */
+ @media all and (min-width:768px) {
+    h2 { margin-top: 5% }
+    h3 { margin-top: 3% }
+    h4 { margin-top: 1.5% }
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    h2 { margin-top: 10% }
+    h3 { margin-top: 1% }
+    h4 { margin-top: 1% }
 }
 
 /* ==== PAGE WIDTH  ==== */
